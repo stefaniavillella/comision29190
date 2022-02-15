@@ -1,0 +1,7 @@
+node_modules/
+.gitignore
+
+
+git remote add origin https://github.com/stefaniavillella/comision29190.git
+git branch -M master
+git push -u origin master
