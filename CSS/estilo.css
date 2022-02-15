@@ -199,7 +199,8 @@ footer{
 }
 
 .piePagina{
-	background-color: #FEEEE6;
+	background: rgb(255,210,237);
+background: linear-gradient(90deg, rgba(255,210,237,1) 0%, rgba(121,9,115,0.41220238095238093) 33%, rgba(190,188,255,1) 100%);
 	font-size: 120%;
 }
 
@@ -212,7 +213,7 @@ footer{
 
 .piePagina div h4{
 	font-family:'Montserrat', sans-serif;
-	color:#E5386D;
+	color:#020202;
 
 }
 
