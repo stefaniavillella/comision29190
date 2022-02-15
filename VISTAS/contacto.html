@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Graphics - Contactanos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img class="logoImagen" src="../IMG/logo.jpg">
+        <nav class="navegador">
+            <ul class="estiloLista">
+                <li> <a href="../index.html">INICIO</a></li>
+                <li> <a href="../VISTAS/quienesSomos.html">QUIÉNES SOMOS</a></li>
+                <li> <a href="../VISTAS/productos.html"">PRODUCTOS</a></li>
+                <li> <a href="../VISTAS/comoComprar.html"">CÓMO COMPRAR</a></li>
+                <li> <a href="#">CONTACTO</a></li>
+            </ul>
+               <form class="formEstilo" action="#" method="post">
+                                <input class="flexsearch--input" type="search" placeholder="Buscar" >
+                                <i class="fas fa-search"></i>
+                                <i class="fas fa-user-circle"></i>
+               </form>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <img src="../IMG/banner.jpg" alt="imagen banner" class="bannerImg">
+    </div>
+
+    <section class="sectionForm">
+        <div class="textoContacto">
+            <p>A través de este canal podés enviarnos cualquier consulta que tengas 
+            relacionada a los kits, entregas, armados, impresiones, etc. <br>
+            Estamos a tu disposición y te responderemos lo más pronto posible</p>
+     </div>
+
+     <div class="estiloFormu">
+            <form action="" method="" enctype="">
+
+                    <label id="userSex">SEXO:</label>
+                       <input type="radio" name="campousersex" id="userSex" value="masculino"> Hombre
+                       <input type="radio" name="campousersex" id="userSex" value="femenino"> Mujer
+        
+                       <div>
+                           <label for="userName">Nombre:</label><br>
+                           <input type="text" name="campoUserName" id="userName" placeholder="Intruduzca su nombre" required> 
+                       </div>
+        
+                       <div>
+                           <label for="userLastname">Apellido:</label><br>
+                           <input type="text" name="campoUserLastname" id="userLastname" placeholder="Introduzca su apellido" required>
+                       </div>
+        
+                       <div>
+                        <label for="userEmail">Email:</label><br>
+                        <input type="text" name="campoUserEmail" id="userEmail" placeholder="Introduzca su email" required>
+                       </div>
+
+                       <div>
+                        <label for="userNumber">Teléfono:</label><br>
+                        <input type="tel" name="campoUserNumber" id="userNumber" placeholder="Opcional">
+                       </div>
+
+
+                       <div>
+                           <label for="estadoCivilDeUsuario">Estado Civil:</label>
+                           <select name="campoEstadoCivilDeUsuario" id="estadocivildeusuario">
+                               <option value="" disabled selected>Seleccione su estado civil</option>
+                               <option value="SOLTERO/A">Soltero/a</option>
+                               <option value="CASADO/A">Casado/a</option>
+                               <option value="DIVORCIADO/A">Divorciado/a</option>
+                           </select>
+                       </div>
+                          
+                       <div>
+                          <label for="mensaje">Mensaje</label> <br>
+                          <textarea name="comentarios" rows="10" cols="40">Opcional</textarea>
+                       </div>
+
+                       <label for="conditions" >Acepto los términos y condiciones</label>
+                       <input type="checkbox" name="campoConditions" id="conditions" required><br>
+                       <input class="botonesFormu" type="reset" value="LIMPIAR DATOS">
+                       <input class="botonesFormu" type="submit" value="ENVIAR">
+            </form>
+        </div>
+    </section>
+
+        <footer class="piePagina">
+            <section class="datosFooter">
+         <div>
+            <h4>COMUNICATE CON NOSOTROS</h4>
+            <i class="fab fa-whatsapp"> 0222415500374</i> 
+         </div>
+     
+         <div>
+            <h4>SEGUINOS EN LAS REDES</h4>
+            <button><i class="fab fa-instagram"></i></button>
+            <button><i class="fab fa-facebook-f"></i></button>
+         </div>
+     
+         <div>
+            <h4>NEWSLETTER</h4>
+            <form class="email" action="#">
+             <input type="email" placeholder="Email" >
+             <i class="fas fa-envelope"></i>
+             </form>
+         </div>
+     </section>
+        </footer>
+</body>
+</html>
